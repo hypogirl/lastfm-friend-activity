@@ -1,0 +1,15 @@
+{
+    "name": "Last.Fm Friend Sidebar",
+    "version": "1.0.0",
+    "description": "shows what a user's friends are listening to",
+    "manifest_version": 3,
+    "author": "Maëva João",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Last.Fm Friend Sidebar"
+    },
+    "web_accessible_resources": [{ 
+    "resources": ["/script.js"],
+    "matches": ["<all_urls>"]
+    }]
+}
